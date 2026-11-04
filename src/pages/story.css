@@ -1,0 +1,79 @@
+.story-page {
+  background: #f3ebdd;
+  color: #25180f;
+  font-family: Arial, sans-serif;
+}
+
+.story-page *,
+.story-page *::before,
+.story-page *::after {
+  box-sizing: border-box;
+}
+
+.story-page .story-eyebrow {
+  margin: 0 0 16px;
+  color: #9c7044;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.story-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 46px;
+  padding: 12px 22px;
+  border: 1px solid #702e26;
+  background: #702e26;
+  color: #fffaf1;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.story-button:hover,
+.story-button:focus-visible {
+  background: #54231c;
+}
+
+.story-section {
+  padding: 76px 8%;
+}
+
+.story-craft h2 {
+  margin: 0 0 18px;
+  color: #542b1c;
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1.2;
+}
+
+.story-craft-copy > p:not(.story-eyebrow) {
+  color: #6d5948;
+  font-size: 16px;
+  line-height: 1.85;
+}
+
+.story-craft {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  scroll-margin-top: 82px;
+}
+
+.story-craft-copy {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.story-craft-copy > p:not(.story-eyebrow) {
+  margin: 0 0 14px;
+}
+
+@media (max-width: 700px) {
+  .story-section {
+    padding: 52px 7%;
+  }
+}
